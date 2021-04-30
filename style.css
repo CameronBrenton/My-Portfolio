@@ -22,7 +22,6 @@ p,h2,h4{
   margin: 0;
   padding: 90px 0 25px 0;
   transform-origin: 50% 100%;
-  text-shadow: 1px 1px 1px #333;
   animation-duration: 3.14s;
   animation-name: fadeAndScale;
   animation-timing-function: cubic-bezier(.71,.55,.66,1.99);
