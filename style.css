@@ -23,17 +23,22 @@ body{
   background-image: url("./images/computer.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 50vh;
-
 }
 
 #parallax-3{
-  background: blueviolet;
+  background: linear-gradient(green, yellow);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 25vh;
 }
 
 #parallax-4{
-  height: 400px;
-  background: coral;
+  background: linear-gradient(coral, blue);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 25vh;
 }
 
 #parallax-5{
@@ -42,6 +47,14 @@ body{
 
 p,h2,h4{
   text-align: center;
+}
+
+.h2{
+  margin-top: auto;
+  background: rgba(238, 238, 238, 0.479);
+  padding: 8px 12px;
+  border-radius: 16px;
+  width: 50%;
 }
 
 #keepLearning{
