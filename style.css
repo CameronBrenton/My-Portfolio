@@ -5,48 +5,98 @@ body{
   background:#f0f0f0;
 }
 
-.parallax{
+#parallax-5{
+  background: url("./images/keyboard2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
   display: flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
 #parallax-1{
-  background-image: url("./images/keyboard.jpg");
+  background-image: url("./images/keyboard2.jpeg");
   background-size: cover;
   background-attachment: fixed;
   height: 50vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 #parallax-2{
-  background-image: url("./images/computer.jpg");
+  background: url("./images/keyboard.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 50vh;
+  display: flex;
+  flex-direction:column;
+}
+
+#parallax-6{
+  background: url("./images/keyboard.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction:column;
 }
 
 #parallax-3{
-  background: linear-gradient(green, yellow);
+  background: url("./images/keyboard3.jpeg");
   background-size: cover;
   background-attachment: fixed;
   height: 25vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#parallax-8{
+  background: url("./images/keyboard3.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction:column;
 }
 
 #parallax-4{
-  background: linear-gradient(coral, blue);
+  background: url("./images/keyboard3.jpeg");
   background-size: cover;
   background-attachment: fixed;
   height: 25vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-#parallax-5{
-  background: yellow;
+#parallax-7{
+  background: linear-gradient(rgb(212, 90, 157),white);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction:column;
+}
+
+#parallax-9{
+  background: url("./images/code.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction:column;
+  height: 25vh;
 }
 
 p,h2,h4{
   text-align: center;
+  color: white;
 }
 
 .h2{
@@ -54,7 +104,7 @@ p,h2,h4{
   background: rgba(238, 238, 238, 0.479);
   padding: 8px 12px;
   border-radius: 16px;
-  width: 50%;
+  width: 60%;
 }
 
 #keepLearning{
@@ -66,7 +116,7 @@ p,h2,h4{
   font-size: 55px;
   font-family: 'Herr Von Muellerhoff', cursive;
   font-weight: normal;
-  color: black;
+  color: white;
   margin: 0;
   padding: 90px 0 25px 0;
   transform-origin: 50% 100%;
@@ -158,5 +208,5 @@ a:hover{
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  color: #111;
+  color: white;
 }
