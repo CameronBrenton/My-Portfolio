@@ -1,5 +1,6 @@
 function main() {
-  let color = document.querySelector("#color");
+  let backgroundImage = document.querySelector("#backgroundImage");
+  let backgroundImage2 = document.querySelector('#backgroundImage2');
 
   function setTranslate(xPos, yPos, el) {
     el.style.transform = "translate3d(" + xPos + "px, " 
@@ -14,7 +15,8 @@ function main() {
     xScrollPosition = window.scrollX;
     yScrollPosition = window.scrollY;
 
-    setTranslate(0, yScrollPosition * 1, color);
+    setTranslate(0, yScrollPosition * -0.2, backgroundImage);
+    setTranslate(0, yScrollPosition * -0.2, backgroundImage2);
   
     requestAnimationFrame(scrollLoop);
   }
