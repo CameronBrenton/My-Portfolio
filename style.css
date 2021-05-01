@@ -5,19 +5,36 @@ body{
   /*background:#f0f0f0;*/
 }
 
-#backgroundImage{
-  background-image: url("./images/keyboard.jpg");
-  background-position: fixed;
-  background-repeat: no-repeat;
-  z-index: -1;
-  opacity: .50;
+div.parallax{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
-#backgroundImage2{
+#parallax-1{
   background-image: url("./images/computer.jpg");
-  background-repeat: no-repeat;
-  z-index: -1;
-  opacity: .50;
+  background-size: cover;
+}
+
+#parallax-2{
+  background-image: url("./images/keyboard.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#parallax-3{
+  background: blueviolet;
+}
+
+#parallax-4{
+  height: 400px;
+  background: coral;
+}
+
+#parallax-5{
+  background: yellow;
 }
 
 p,h2,h4{
