@@ -57,7 +57,7 @@ body{
   background-attachment: fixed;
   display: flex;
   flex-direction:column;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -172,15 +172,26 @@ a:hover{
   font-size: 30px;
 }
 
-#content{
-  /*margin-left: 20px;
-  margin-right: 20px;*/
-  background-color: rgba(255, 255, 255, 0.644);
-}
-
 #content p{
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: white;
+}
+
+#exampleDiv{
+  height: auto;
+  width: 100%;
+}
+
+.imgSchoolApp{
+  height: auto;
+  width: 100%;
+  max-width: 175px;
+}
+
+.imgMeTube{
+  height: auto;
+  width: 100%;
+  max-width: 175px;
 }
