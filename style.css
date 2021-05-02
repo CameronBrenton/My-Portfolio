@@ -36,6 +36,7 @@ body{
   display: flex;
   flex-direction:column;
   height: 110vh;
+  width: 100%;
 }
 
 #parallax-4{
@@ -57,6 +58,7 @@ body{
   display: flex;
   flex-direction:column;
   height: 100vh;
+  width: 100%;
 }
 
 #parallax-6{
@@ -78,6 +80,7 @@ body{
   display: flex;
   flex-direction:column;
   height: 100vh;
+  width: 100%;
 }
 
 #parallax-8{
@@ -87,6 +90,7 @@ body{
   display: flex;
   flex-direction:column;
   height: 300vh;
+  width: 100%;
 }
 
 #parallax-9{
@@ -96,6 +100,7 @@ body{
   display: flex;
   flex-direction:column;
   height: 100vh;
+  width: 100%;
 }
 
 p,h1,h2,h4{
