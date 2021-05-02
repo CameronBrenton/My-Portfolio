@@ -6,7 +6,7 @@ body{
 }
 
 #parallax-1{
-  background: url("./images/keyboard1.jpeg");
+  background: url("./images/earth.jpeg");
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -86,7 +86,16 @@ body{
   background-attachment: fixed;
   display: flex;
   flex-direction:column;
-  height: 700vh;
+  height: 300vh;
+}
+
+#parallax-9{
+  background: url("./images/matrix.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction:column;
+  height: 100vh;
 }
 
 p,h1,h2,h4{
