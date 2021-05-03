@@ -25,7 +25,7 @@ body{
   background-attachment: fixed;
   display: flex;
   flex-direction:column;
-  height: 200vh;
+  height: 250vh;
   width: 100%;
   padding-top: 11vh;
 }
@@ -80,6 +80,19 @@ p,h1,h2,h4{
 
 #keepLearning{
   font-style: italic;
+}
+
+#photoDiv{
+  display: flex;
+  justify-content: center;
+}
+
+#camPhoto{
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-self: center;
 }
 
 #header1{
